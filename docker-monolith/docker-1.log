@@ -1,0 +1,10 @@
+ oleg@oleg-DevOps  ~  docker images
+REPOSITORY                TAG                 IMAGE ID            CREATED             SIZE
+lovejoi/ubuntu-tmp-file   latest              de5d5bc912cf        41 seconds ago      125MB
+ubuntu                    16.04               005d2078bdfa        3 days ago          125MB
+hello-world               latest              bf756fb1ae65        3 months ago        13.3kB
+ oleg@oleg-DevOps  ~  
+
+
+при команде docker inspect <u_container_id> команда выдает все информацию из какого образа запушен контейнер , информация по сети моунт поинт и т.д
+при команде docker inspect <u_image_id> отображается только инфа детальная по имиджу
